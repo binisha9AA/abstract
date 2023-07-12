@@ -1,0 +1,56 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.iconimg {
+  width: 72px;
+  height: 72px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+.description {
+  text-align: left;
+}
+.title h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.link {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.link a {
+  font-size: 18px;
+  color: #4c5fd5;
+}
+.arrow {
+  color: #4c5fd5;
+  width: 22px;
+}
+.desc {
+  font-size: 20px;
+  margin-block: 12px;
+  line-height: 32px;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    width: 400px;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 800px) {
+  .grid-container {
+    width: 1000px;
+    margin-inline: auto;
+  }
+}

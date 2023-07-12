@@ -1,0 +1,33 @@
+.hero_section {
+  background-color: #dadbf1;
+}
+.hero_heading {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 40px;
+  font-weight: 400;
+  letter-spacing: -4px;
+}
+.search {
+  margin: 2rem 1rem;
+  padding: 17px;
+}
+input {
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid;
+}
+.search {
+  width: 100%;
+  margin: 12px 0;
+  font-size: 16px;
+}
+.form {
+  position: relative;
+  display: flex;
+}
+.search_arrow {
+  position: absolute;
+  right: 4%;
+  top: 40%;
+}
